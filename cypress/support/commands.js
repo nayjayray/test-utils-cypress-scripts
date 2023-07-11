@@ -66,7 +66,7 @@ Cypress.Commands.add('date_dd_mm_yy', () => {
   const month = (d.getMonth() + 1).toString().padStart(2,'0')
   const year = d.getFullYear().toString().slice(-2)
   const date = day + '.' + month + '.' + year
-  return date;
+  return {day,year,month};
 })
 //
 //
