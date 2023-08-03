@@ -9,10 +9,10 @@
   "payees": [
     {
       "Payee_notes": "This is the payee details section, you can add/edit any Payee details here.",
-      "payeeEmail": "",
-      "payeePassword": "",
-      "payeeId": "",
-      "businessId": "",
+      "payeeEmail": "intrinsikdropbox@gmail.com",
+      "payeePassword": "Dem0is!123",
+      "payeeId": "64b89ff65cb0bb7853aa5b56",
+      "businessId": "64b8a0ab5cb0bb7853aa5b66",
       "userToken": ""
     }
   ],
@@ -21,8 +21,8 @@
     "Additional_Notes": "The details here will be used during customer creation.",
     "firstName": "Cypress",
     "lastName": "Customer",
-    "phoneNumber": "123456789",
-    "officeNumber": "123456789",
+    "phoneNumber": "+60123456789",
+    "officeNumber": "+60123456789",
     "userInd": "individual",
     "userBiz": "business",
     "bizName": "Cypress Business",
@@ -35,16 +35,25 @@
     "countryCode": "MY"
   },
   "Customers_Notes": "This section is where the script [cy.writeFile()] stores the customer details. Don't change anything unless you know what you are doing.",
-  "Additional_Notes": "The number of customers are defined in the script",
+  "Additional_Notes": "There are 50 customers in the array, you may change up to 50 customer",
   "customers": [
+    {
+      "note": "Step 2 - Customer created",
+      "firstName": "Cypress",
+      "lastName": "Business 1.0",
+      "bizShort": "CYBiz1",
+      "email": "intrinsiktest+1+2@gmail.com",
+      "id": "64b8d0155cb0bb7853aa62b4",
+      "invoiceId1": "",
+      "invoiceNo1": "INV-CYBIZ1-1689833492",
+      "invoiceId2": "",
+      "invoiceNo2": "INV-CYBIZ1-168983349",
+      "lodId": ""
+    }
   ],
-  "customersList": [
-
-  ],
-  "lodList": [
-
-  ],
+  "lodList": [],
   "invoiceList": [
-    
-  ]
+    "INV-CYBIZ1-1689833492"
+  ],
+  "logs": []
 }

@@ -40,7 +40,7 @@ describe("[Init] Generate 5 emails > Saving those emails in a Json file in cypre
   })
 
   // Template 2
-  it("Example two - Using .forEach to run a script for each array in an object.", () => {
+  it("Template two - Using .forEach to run a script for each array in an object.", () => {
     // First you read from the JSON file
     cy.readFile("cypress/support/{json}.json").then((users) => {
 
