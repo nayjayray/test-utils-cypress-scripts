@@ -1,0 +1,46 @@
+{
+  "support_email": "support@ara-app.com",
+  "magic_link": "https://user.ara-app.com/auth/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFyYXNhbml0eUBnbWFpbC5jb20iLCJhY3Rpb24iOiJtYWdpY19saW5rX3NpZ25faW4iLCJpYXQiOjE2OTg4NDg4NTU0MjgsImV4cCI6MTcwMTQ0MDg1NTQyOH0.nP1pGehcnuyl1t0ak6U37LqXx9Dd9OB9odM5oD5EQFM",
+  "reset_password": "https://user.ara-app.com/auth/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImludHJpbnNpa2N5cHJlc3NAZ21haWwuY29tIiwiYWN0aW9uIjoiZm9yZ290X3Bhc3N3b3JkIiwiaWF0IjoxNjk4MzA3NzM3MzU5LCJleHAiOjE2OTgzOTQxMzczNTl9.PXGNTDfziYfFePmL-rywcnyg5XTU3L6qrtd65k1_9cw",
+  "payee": {
+    "email": "nicholas@intrinsik.ly",
+    "password": "Dem0is!123"
+  },
+  "arasanity": {
+    "email": "arasanity@gmail.com",
+    "password": "",
+    "credential": "cypress/support/credentials/arasanity/credentials.json",
+    "token": "cypress/support/credentials/arasanity/token.json",
+    "type": "Individual",
+    "type_value": "individual",
+    "name_first": "Ara Sanity",
+    "name_last": "Payer",
+    "name_full": "Ara Sanity Payer",
+    "type_desc_first": "C",
+    "type_desc_last": "y Bis",
+    "type_desc_full": "Cy Bis",
+    "phone_number": "103311598",
+    "phone_number_full": "+60103311598",
+    "mobile_number": "+60102200487",
+    "address": {
+      "line_one": "404, Testing Lane, Bug Garden",
+      "line_two": "",
+      "city": "Google",
+      "postcode": "500404",
+      "state": "Cloud"
+    }
+  },
+  "intrinsikcypress": {
+    "email": "intrinsikcypress@gmail.com",
+    "password": "Dem0is!123",
+    "credential": "cypress/support/credentials/intrinsikcypress/credentials.json",
+    "token": "cypress/support/credentials/intrinsikcypress/token.json",
+    "name_first": "",
+    "name_last": "",
+    "name_full": ""
+  },
+  "emails": {
+    "magic_link": "Your unique link to access Ara",
+    "reset_password": "Reset Password for Ara"
+  }
+}
